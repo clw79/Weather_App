@@ -17,6 +17,10 @@ async function checkWeather() {
     document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
     document.querySelector(".wind").innerHTML = data.wind.speed + "mph";
 
+    searchBtn.addEventListener("click", () => {
+        checkWeather(searchBox.value)
+    });
+
     console.log(data);
 }
 
