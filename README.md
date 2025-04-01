@@ -1,59 +1,36 @@
-🌦️ Weather App
+# 🌦️ Weather App
+
 A user-friendly web application that provides current weather information based on city search. Built with HTML, CSS, and JavaScript, it fetches data from a weather API to display real-time weather conditions.
 
-🚀 Live Demo
+---
+
+## 🚀 Live Demo
 <a href="https://weatherapp.cwdevportfolio.com/" target="_blank">Check out the live app here</a>
 
-🛠️ Features
-Real-time Weather Data: Fetches and displays current weather information for user-specified cities.
 
-Responsive Design: Ensures optimal viewing experience across various devices.
 
-Error Handling: Provides user feedback for invalid city names or network issues.
+## 🛠️ Features
 
-🧰 Tech Stack
-Frontend: HTML5, CSS3, JavaScript (ES6)
+- Real-time Weather Data: Fetches and displays current weather information for user-specified cities.
+- Responsive Design: Ensures optimal viewing experience across various devices.
+- Error Handling: Provides user feedback for invalid city names or network issues.
 
-API: OpenWeatherMap API
+## 🧰 Tech Stack
 
-🛠️ Getting Started
-Clone the Repository:
+- Frontend: HTML5, CSS3, JavaScript (ES6)
+- API: OpenWeatherMap API
 
-bash
-Copy
-Edit
-git clone https://github.com/clw79/Weather_App.git
-cd Weather_App
-Obtain an API Key:
 
-Register at OpenWeatherMap to get a free API key.
+## 🧪 Future Enhancements
 
-Configure the Application:
+- Forecast Feature: Display 5-day weather forecasts.
+- Geolocation Support: Automatically detect and show weather for the user's current location.
+- Unit Toggle: Allow users to switch between Celsius and Fahrenheit.
 
-Create a config.js file in the project root:
+## 🙌 Acknowledgments
 
-javascript
-Copy
-Edit
-const apiKey = 'YOUR_API_KEY_HERE';
-Replace 'YOUR_API_KEY_HERE' with your actual OpenWeatherMap API key.
-
-Run the Application:
-
-Open index.html in your preferred web browser.
-
-🧪 Future Enhancements
-Forecast Feature: Display 5-day weather forecasts.
-
-Geolocation Support: Automatically detect and show weather for the user's current location.
-
-Unit Toggle: Allow users to switch between Celsius and Fahrenheit.
-
-🙌 Acknowledgments
-API Provider: OpenWeatherMap for their comprehensive weather data.
-
-Inspiration: Project inspired by learning goals and hands-on practice in web development.
-
+- API Provider: OpenWeatherMap for their comprehensive weather data.
+- Inspiration: Project inspired by learning goals and hands-on practice in web development.
 
 ## 🧑‍💻 Author
 
